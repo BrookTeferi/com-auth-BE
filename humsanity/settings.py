@@ -38,8 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #Custom apps
     'account_users',
-    'rest_framework',
+    'reference_data',
+
+
+    #3rd party
+    'rest_framework',   
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
