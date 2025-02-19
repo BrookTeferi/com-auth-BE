@@ -1,0 +1,55 @@
+# Core Django
+Django>=4.1
+djangorestframework>=3.14  # REST API framework
+
+# Authentication & Security
+dj-rest-auth>=4.0  # JWT/OAuth2 authentication
+django-allauth>=0.52  # Email verification and social auth
+bcrypt>=4.0  # Password hashing
+django-axes # Brute-force protection
+django-two-factor-auth>=1.12  # Two-factor authentication
+
+# Database
+psycopg2-binary>=2.9  # PostgreSQL adapter
+redis>=4.5  # Caching and message queue
+
+# Caching
+django-redis>=5.0  # Redis caching
+
+# Background Tasks
+celery>=5.3  # Task queue
+django-celery-beat>=2.5  # Periodic task scheduling
+
+# File Uploads
+# File Uploads
+Pillow>=9.0  # Image processing
+django-storages>=1.13  # Storage backends (e.g., MinIO, AWS S3)
+
+# API Documentation
+drf-yasg>=1.20  # Swagger/OpenAPI documentation
+
+
+# Event Streaming
+kafka-python>=2.0  # Apache Kafka integration (for analytics)
+
+# Input Validation & Serialization
+pydantic>=1.10  # Data validation and settings management
+pyotp>=2.6  # One-time password generation
+# CORS Handling
+django-cors-headers>=3.14  # Cross-origin resource sharing
+
+# Email Sending
+django-mail-queue>=1.7  # Email handling
+
+# Testing & Development
+pytest-django>=4.5  # Testing framework
+factory-boy>=3.2  # Test data generation
+coverage>=6.5  # Code coverage analysis
+
+# Other Utilities
+python-decouple>=3.8  # Environment variable management
+django-storages>=1.13  # Storage backends (e.g., MinIO, AWS S3)
+whitenoise>=6.0  # Static file serving in production
+drf-spectacular>=0.25  # OpenAPI documentation
+django-filter>=23.2  # Query filtering
+gunicorn>=20.1  # WSGI server for production
